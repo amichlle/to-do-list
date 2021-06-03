@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+		<title>To Do List</title>
+		<link rel="stylesheet" type="text/css" href="css.css">
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	</head>
+
+	<body>
+		
+		<section id="todoList">
+			<div class="back">
+				<h1>to-dos</h1>
+					<div class="mainBar">
+						<a id="checkAll"class="trajeBoton" href="#"><i class="fas fa-list-alt"></i></a>
+						<a id="checkNone" class="trajeBoton" href="#"><i class="far fa-list-alt"></i></a>
+						<input id="taskInput" type="text" placeholder="What needs to be done?">
+						<a id="deleteAll" class="trajeBoton" href="#"><i class="fas fa-trash-alt"></i></a>
+					</div>
+					<div class="filtro">
+						<a id="todoItem" class="trajeBoton" href="#"><i class="fas fa-globe-americas"></i></a>
+						<a id="todoCheck" class="trajeBoton" href="#"><i class="fas fa-tasks"></i></a>
+						<a id="todoTachado" class="trajeBoton" href="#"><i class="fas fa-strikethrough"></i></a>
+						<a id="mostrar" class="trajeBoton" href="#"><i class="fas fa-eye"></i></a>
+						<a id="noMostrar" class="trajeBoton displayHidden" href="#"><i class="fas fa-eye-slash"></i></a>
+					</div>
+					<ul id="listaTask">
+						<li id="noElements">No hay elementos</li>
+					</ul>
+			</div>
+
+		</section>
+
+		
+
+	</body>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src= "todo.js" ></script>
+
+</html>
